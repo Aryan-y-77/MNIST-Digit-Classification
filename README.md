@@ -8,43 +8,41 @@ This project demonstrates my understanding and implementation of a machine learn
 
 Data Preprocessing:
 
-Loaded and visualized the MNIST dataset.
+* Loaded and visualized the MNIST dataset.
 
-Normalized the pixel values to fall within the range [0, 1] for better model performance.
+* Normalized the pixel values to fall within the range [0, 1] for better model performance.
 
 ### Model Architecture:
 
-Created a Sequential model with the following layers:
+* Created a Sequential model with the following layers:
 
-Flatten: To convert 28x28 images into 1D arrays.
+* Flatten: To convert 28x28 images into 1D arrays.
 
-Dense: Fully connected layers with ReLU activation.
+* Dense: Fully connected layers with ReLU activation.
 
-Dropout: To prevent overfitting.
-
-Dense: Output layer with softmax activation for classification into 10 categories.
+* Dense: Output layer with softmax activation for classification into 10 categories.
 
 ### Compilation:
 
-Used the Adam optimizer for efficient gradient descent.
+* Used the Adam optimizer for efficient gradient descent.
 
-Set the loss function as sparse_categorical_crossentropy for multi-class classification.
+* Set the loss function as sparse_categorical_crossentropy for multi-class classification.
 
-Tracked the model's performance using accuracy as the evaluation metric.
+* Tracked the model's performance using accuracy as the evaluation metric.
 
 ### Training and Evaluation:
 
-Trained the model on the MNIST training dataset for 10 epochs.
+* Trained the model on the MNIST training dataset for 10 epochs.
 
-Validated the model using a validation split during training.
+* Validated the model using a validation split during training.
 
-Evaluated the model's performance on the test dataset and obtained the accuracy.
+* Evaluated the model's performance on the test dataset and obtained the accuracy.
 
 ### Predictions:
 
-Converted the model's prediction probabilities into class labels using np.argmax().
+* Converted the model's prediction probabilities into class labels using np.argmax().
 
-Evaluated predictions for individual images and the entire test dataset.
+* Evaluated predictions for individual images and the entire test dataset.
 
 
 
@@ -52,37 +50,37 @@ Evaluated predictions for individual images and the entire test dataset.
 
 ### Machine Learning Concepts:
 
-Understanding the difference between training, validation, and test datasets.
+* Understanding the difference between training, validation, and test datasets.
 
-Importance of data normalization for neural networks.
+* Importance of data normalization for neural networks.
 
-Role of activation functions (e.g., ReLU, softmax) in neural networks.
+* Role of activation functions (e.g., ReLU, softmax) in neural networks.
 
-Loss functions and their significance in optimization.
+* Loss functions and their significance in optimization.
 
 ### Deep Learning Frameworks:
 
-Familiarity with TensorFlow and Keras for building and training models.
+* Familiarity with TensorFlow and Keras for building and training models.
 
-Usage of the Sequential API to define simple neural networks.
+* Usage of the Sequential API to define simple neural networks.
 
-Understanding how to compile and fit a model.
+* Understanding how to compile and fit a model.
 
 ### Data Handling and Visualization:
 
-Loading and processing datasets with NumPy.
+* Loading and processing datasets with NumPy.
 
-Visualizing sample images from the MNIST dataset.
+* Visualizing sample images from the MNIST dataset.
 
-Analyzing model predictions and converting probabilities to class labels.
+* Analyzing model predictions and converting probabilities to class labels.
 
 ### Model Evaluation and Debugging:
 
-Understanding metrics like accuracy and loss.
+* Understanding metrics like accuracy and loss.
 
-Identifying overfitting using validation metrics.
+* Identifying overfitting using validation metrics.
 
-Applying techniques like dropout to improve generalization.
+* Applying techniques like dropout to improve generalization.
 
 
 
